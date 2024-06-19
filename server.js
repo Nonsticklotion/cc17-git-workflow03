@@ -8,6 +8,9 @@ app.use('/register',(req, res) => {
 app.use('/login',(req, res) => {
   res.json({ message: "mynigga" });
 });
+app.use('/test',(req, res) => {
+  res.json({ message: "mynigga" });
+});
 
 
 app.listen(8000);
